@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 23:43:02 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/15 00:17:23 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/15 14:37:17 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void *ft_memset(void *s, int c, size_t n)
     i = 0;
     while (i < n)
     {
-        ((unsigned char*)s)[i] = (unsigned char*)c;
+        ((unsigned char*)s)[i] = (unsigned char)c;
         i++;
     }    
     return (s);

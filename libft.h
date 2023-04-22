@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/22 13:49:38 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/22 15:27:19 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/22 16:32:29 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ void			*ft_memcpy(void *dest, const void *src, size_t n);
 void			*ft_memmove(void *dest, const void *src, size_t n);
 void			*ft_memset(void *s, int c, size_t n);
 unsigned int	ft_strlcpy(char *dest, char *src, size_t size);
-size_t	ft_strlen(const char *str)
+size_t			ft_strlen(const char *str);
+size_t			ft_strlcat(char *dest, char *src, size_t size);
 
 #endif

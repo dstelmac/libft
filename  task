@@ -7,9 +7,9 @@
 • memset•
 • bzero•
 • memcpy•
-• memmove
-• strlcpy
-• strlcat
+• memmove•
+• strlcpy•
+• strlcat•
 • toupper
 • tolower
 • strchr

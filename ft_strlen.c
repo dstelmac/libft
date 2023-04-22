@@ -6,21 +6,20 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 23:43:07 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/19 19:44:09 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/22 15:28:36 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	count;
+	size_t	count;
 
 	count = 0;
-	while (*str != '\0')
+	while (str[count] != '\0')
 	{
 		count++;
-		str++;
 	}
 	return (count);
 }

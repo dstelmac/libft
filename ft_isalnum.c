@@ -1,18 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/22 15:33:15 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/22 15:43:47 by dstelmac         ###   ########.fr       */
+/*   Created: 2023/04/14 23:42:22 by dstelmac          #+#    #+#             */
+/*   Updated: 2023/04/22 15:21:42 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, size_t n)
+int	ft_isalnum(int c)
 {
-	ft_memset(s, 0, n);
+	if ((c <= 'Z' && c >= 'A') || (c <= 'z' && c >= 'a'))
+		return (1);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 23:43:02 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/19 19:43:02 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/22 15:23:15 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ em um determinado sistema, permitindo que a função trate corretamente tamanhos
 grandes e não negativos de memória.*/
 
 #include "libft.h"
-#include <stddef.h>
 
 void	*ft_memset(void *s, int c, size_t n)
 {

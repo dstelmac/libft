@@ -6,12 +6,11 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/15 16:09:23 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/19 19:43:51 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/22 15:22:57 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

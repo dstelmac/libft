@@ -18,6 +18,9 @@ SRC =	ft_bzero \
 		ft_strlen \
 		ft_strlcpy \
 		ft_strlcat \
+		ft_toupper \
+		ft_tolower \
+		ft_strchr \
 
 OBJ = $(SRC:=.o)
 

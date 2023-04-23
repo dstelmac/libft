@@ -10,12 +10,17 @@
 • memmove•
 • strlcpy•
 • strlcat•
-• toupper
-• tolower
-• strchr
+• toupper•
+• tolower•
+• strchr•
 • strrchr
 • strncmp
 • memchr
 • memcmp
 • strnstr
 • atoi
+
+
+python3 -m venv venv
+source venv/bin/activate
+pip install norminette

@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/22 17:12:15 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/23 23:17:02 by dstelmac         ###   ########.fr       */
+/*   Created: 2023/04/23 23:23:38 by dstelmac          #+#    #+#             */
+/*   Updated: 2023/04/23 23:26:10 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int ch)
+int	ft_tolower(int ch)
 {
-	if (ch >= 97 && ch <= 122)
-		return (ch - 32);
+	if (ch >= 65 && ch <= 90)
+		return (ch + 32);
 	return (ch);
 }

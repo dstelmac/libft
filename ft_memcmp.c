@@ -6,7 +6,13 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 15:15:20 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/24 15:15:21 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/24 15:32:51 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int memcmp(const void *str1, const void *str2, size_t n)
+{
+	
+}

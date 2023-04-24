@@ -21,6 +21,9 @@ SRC =	ft_bzero \
 		ft_toupper \
 		ft_tolower \
 		ft_strchr \
+		ft_strrchr \
+		ft_strncmp \
+		ft_memchr \
 
 OBJ = $(SRC:=.o)
 

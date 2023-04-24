@@ -13,8 +13,8 @@
 • toupper•
 • tolower•
 • strchr•
-• strrchr
-• strncmp
+• strrchr•
+• strncmp•
 • memchr
 • memcmp
 • strnstr

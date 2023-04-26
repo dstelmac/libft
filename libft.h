@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/22 13:49:38 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/24 15:14:56 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/04/25 19:59:02 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,6 @@ char			*ft_strrchr(const char *str, int c);
 int				ft_strncmp(char *s1, char *s2, size_t n);
 void			*ft_memchr(const void *str, int c, size_t n);
 char			*ft_strncat(char *dest, char *src, unsigned int nb);
+int				ft_memcmp(const void *str1, const void *str2, size_t n);
 
 #endif

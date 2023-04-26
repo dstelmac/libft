@@ -17,8 +17,8 @@
 • strncmp•
 • memchr•
 • memcmp•
-• strnstr
-• atoi
+• strnstr•
+• atoi•
 
 
 python3 -m venv venv

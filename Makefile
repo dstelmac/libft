@@ -27,6 +27,7 @@ SRC =	ft_bzero \
 		ft_memcmp \
 		ft_strnstr \
 		ft_atoi \
+		ft_calloc \
 
 OBJ = $(SRC:=.o)
 

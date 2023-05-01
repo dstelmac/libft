@@ -22,7 +22,7 @@
 •calloc•
 • strdup •
 •substr •
-•strjoin
+•strjoin•
 •strtrim
 •ft_split
 •ft_itoa

@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/22 13:49:38 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/04/30 21:16:43 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/05/01 02:42:29 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,6 @@ int				ft_atoi(const char *str);
 void			*ft_calloc(size_t nitems, size_t size);
 char			*ft_strdup(const char *s);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
+char			*ft_strjoin(const char *s1, const char *s2);
 
 #endif

@@ -30,7 +30,7 @@ SRC =	ft_bzero \
 		ft_calloc \
 		ft_strdup \
 		ft_substr \
-
+		ft_strjoin \
 
 OBJ = $(SRC:=.o)
 

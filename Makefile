@@ -28,6 +28,9 @@ SRC =	ft_bzero \
 		ft_strnstr \
 		ft_atoi \
 		ft_calloc \
+		ft_strdup \
+		ft_substr \
+
 
 OBJ = $(SRC:=.o)
 

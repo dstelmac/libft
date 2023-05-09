@@ -6,7 +6,7 @@
 /*   By: dstelmac <dstelmac@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 21:00:13 by dstelmac          #+#    #+#             */
-/*   Updated: 2023/05/09 20:05:39 by dstelmac         ###   ########.fr       */
+/*   Updated: 2023/05/09 22:09:50 by dstelmac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,13 +68,13 @@ static void	ft_split_words(const char *s, char c, char **str, int word_count)
 		}
 		str[word_number] = (char *)malloc(sizeof(char) * (word_length + 1));
 		if (!str)
-			return;
+			return ;
 		ft_write_word(str[word_number], s, i, word_length);
 		word_length = 0;
 		word_number++;
 	}
 	str[word_number] = NULL;
-	return;
+	return ;
 }
 
 char	**ft_split(const char *s, char c)

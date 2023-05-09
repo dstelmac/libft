@@ -23,7 +23,7 @@
 • strdup •
 •substr •
 •strjoin•
-•strtrim
+•strtrim•
 •ft_split
 •ft_itoa
 •ft_strmapi

@@ -40,7 +40,7 @@
 •ft_lstdelone•
 •ft_lstclear•
 •ft_lstiter•
-•ft_lstmap
+•ft_lstmap•
 
 python3 -m venv venv
 source venv/bin/activate
